@@ -1,6 +1,5 @@
 import Ionicons from '@expo/vector-icons/build/Ionicons';
 import { Audio } from 'expo-av';
-import { Button } from 'expo-stories/shared/components';
 import { Colors } from 'expo-stories/shared/constants';
 import React from 'react';
 import {
@@ -11,6 +10,7 @@ import {
   TouchableOpacity,
   View,
   ViewStyle,
+  Button,
 } from 'react-native';
 
 interface State {
